@@ -27,4 +27,9 @@
     return emojiMode;
 }
 
+- (NSString *)textInputContextIdentifier
+{
+    return @"emoji";
+}
+
 @end

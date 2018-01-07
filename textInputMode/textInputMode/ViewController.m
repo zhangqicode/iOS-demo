@@ -46,6 +46,7 @@
     NSLog(@"-----------");
     NSLog(@"%@", self.normalTextField.textInputMode);
     NSLog(@"%@", [self.normalTextField.textInputMode primaryLanguage]);
+    NSLog(@"%@", self.textField.textInputContextIdentifier);
 }
 
 - (void)notify
